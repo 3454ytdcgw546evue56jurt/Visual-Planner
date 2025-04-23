@@ -12,3 +12,5 @@ y2 = y;
 
 prev_mouse_x = 0;
 prev_mouse_y = 0;
+
+//https://github.com/YoYoGames/GameMaker-Bugs/issues/10422
