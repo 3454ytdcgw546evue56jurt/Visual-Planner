@@ -1,11 +1,11 @@
-Text_box_Seleted = false;
-
-box_area_size = 6;
-
-Side_box_Seleted = false;
+Whole_box_Seleted = false;
 
 motion_mouse_x = 0;
 motion_mouse_y = 0;
+
+Min_Size = 0.5;
+
+scaling_speed = 0.5;
 
 prev_mouse_x = 0;
 prev_mouse_y = 0;
