@@ -1,9 +1,12 @@
 motion_mouse_x = mouse_x - prev_mouse_x;
 motion_mouse_y = mouse_y - prev_mouse_y;
 
+point1_selected = point_in_rectangle(mouse_x,mouse_y,x-collision_box_size,y-collision_box_size,x+collision_box_size,y+collision_box_size);
+point2_selected = point_in_rectangle(mouse_x,mouse_y,x2-collision_box_size,y2-collision_box_size,x2+collision_box_size,y2+collision_box_size);
+
 if(!instance_exists(global.Mouse_Claimed) || global.Mouse_Claimed = self)
 {
-	if(point_in_rectangle(mouse_x,mouse_y,x-collision_box_size,y-collision_box_size,x+collision_box_size,y+collision_box_size))
+	if(point1_selected)
 	{
 		if(mouse_check_button(mb_left))
 		{
@@ -12,7 +15,7 @@ if(!instance_exists(global.Mouse_Claimed) || global.Mouse_Claimed = self)
 			global.Mouse_Claimed = self;
 		}
 	}
-	else if(point_in_rectangle(mouse_x,mouse_y,x2-collision_box_size,y2-collision_box_size,x2+collision_box_size,y2+collision_box_size))
+	else if(point2_selected)
 	{
 		if(mouse_check_button(mb_left))
 		{

@@ -40,6 +40,7 @@
     {"id":{"name":"Arrow_OBJ","path":"objects/Arrow_OBJ/Arrow_OBJ.yy",},},
     {"id":{"name":"Text_block_obj","path":"objects/Text_block_obj/Text_block_obj.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Is_on_side","path":"scripts/Is_on_side/Is_on_side.yy",},},
     {"id":{"name":"Text_block_spr","path":"sprites/Text_block_spr/Text_block_spr.yy",},},
   ],
   "resourceType":"GMProject",
