@@ -1,0 +1,1 @@
+global.Mouse_Claimed = noone;
