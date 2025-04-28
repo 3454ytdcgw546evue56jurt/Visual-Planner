@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Text_Typer",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Text_Typer",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -44,11 +44,42 @@ if(!instance_exists(global.Mouse_Claimed) || global.Mouse_Claimed = self)
 		}
 		else if(mouse_check_button(mb_right))
 		{
-			// TODO add typing text iknto the box
+			typing = true;
 		}
 	}
-	else if(global.Mouse_Claimed = self)
+	else if(global.Mouse_Claimed = self && mouse_check_button(mb_any))
 	{
+		typing = false;
 		global.Mouse_Claimed = noone;
 	}
+}
+
+if(typing && global.Mouse_Claimed = self)
+{
+	if(keyboard_check(vk_control) && keyboard_check_pressed(ord("C")))
+	{
+		clipboard_set_text(Text);
+	}
+	else if(keyboard_check(vk_control) && keyboard_check_pressed(ord("V")))
+	{
+		Text += clipboard_get_text();
+	}
+	else if(keyboard_check_pressed(vk_enter))
+	{
+		typing = false;
+		keyboard_string = "";
+	}
+	else if(keyboard_check_pressed(vk_backspace))
+	{
+		Text = string_copy(Text,0,string_length(Text)-1);
+	}
+	else if(keyboard_check_pressed(vk_anykey))
+	{
+		Text += keyboard_string;
+		keyboard_string = "";
+	}
+}
+else
+{
+	keyboard_string = "";
 }

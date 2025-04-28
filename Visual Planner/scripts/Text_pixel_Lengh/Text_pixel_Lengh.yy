@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Text_pixel_Lengh",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Text_pixel_Lengh",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
