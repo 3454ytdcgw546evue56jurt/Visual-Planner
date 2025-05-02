@@ -1,0 +1,1 @@
+directory_destroy(name);
