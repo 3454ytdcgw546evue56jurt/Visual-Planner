@@ -1,0 +1,1 @@
+draw_rectangle(Screen_X,Screen_Y,Screen_X+Screen_W,Screen_Y+Screen_H,true);
