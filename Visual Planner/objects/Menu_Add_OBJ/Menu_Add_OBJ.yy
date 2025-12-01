@@ -28,10 +28,10 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"Preview_Image","filters":[
+    {"$GMObjectProperty":"v2","%Name":"Preview_Image","filters":[
         "GMSprite",
       ],"listItems":[],"multiselect":false,"name":"Preview_Image","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
-    {"$GMObjectProperty":"v1","%Name":"Thing_to_Create","filters":[
+    {"$GMObjectProperty":"v2","%Name":"Thing_to_Create","filters":[
         "GMObject",
       ],"listItems":[],"multiselect":false,"name":"Thing_to_Create","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
   ],
