@@ -36,7 +36,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.1.210",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"Visual Planner",
   "resources":[
@@ -47,11 +47,14 @@
     {"id":{"name":"List_Obj","path":"objects/List_Obj/List_Obj.yy",},},
     {"id":{"name":"Menu_Add_OBJ","path":"objects/Menu_Add_OBJ/Menu_Add_OBJ.yy",},},
     {"id":{"name":"Text_block_obj","path":"objects/Text_block_obj/Text_block_obj.yy",},},
+    {"id":{"name":"Ui_Compoment","path":"objects/Ui_Compoment/Ui_Compoment.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
+    {"id":{"name":"Arrow_OBJ_create_scr_ui","path":"scripts/Arrow_OBJ_create_scr_ui/Arrow_OBJ_create_scr_ui.yy",},},
     {"id":{"name":"Is_on_side","path":"scripts/Is_on_side/Is_on_side.yy",},},
     {"id":{"name":"Text_pixel_Lengh","path":"scripts/Text_pixel_Lengh/Text_pixel_Lengh.yy",},},
     {"id":{"name":"Text_Typer","path":"scripts/Text_Typer/Text_Typer.yy",},},
+    {"id":{"name":"Arrow_selector","path":"sprites/Arrow_selector/Arrow_selector.yy",},},
     {"id":{"name":"Arrow_SPR_prev","path":"sprites/Arrow_SPR_prev/Arrow_SPR_prev.yy",},},
     {"id":{"name":"BG","path":"sprites/BG/BG.yy",},},
     {"id":{"name":"Folder_Spr_prev","path":"sprites/Folder_Spr_prev/Folder_Spr_prev.yy",},},

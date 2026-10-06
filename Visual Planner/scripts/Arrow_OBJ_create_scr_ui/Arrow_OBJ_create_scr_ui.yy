@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Arrow_OBJ_create_scr_ui",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Arrow_OBJ_create_scr_ui",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,7 +1,4 @@
-try
+if(sprite_exists(Preview_Image))
 {
 	sprite_index = Preview_Image;
 }
-
-start_screen_x = x;
-start_screen_y = y;

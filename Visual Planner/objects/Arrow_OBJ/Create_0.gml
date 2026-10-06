@@ -1,16 +1,27 @@
-lenght = 64;
+event_inherited();
 
-point1_selected = false;
-point2_selected = false;
+Connected_to = noone;
+Connected_from = noone;
 
-arrow_size = 16;
-
-collision_box_size = 16;
-
-x2 = x+lenght;
-y2 = y;
-
-prev_mouse_x = 0;
-prev_mouse_y = 0;
-
-//https://github.com/YoYoGames/GameMaker-Bugs/issues/10422
+on_drop = function(Self)
+{
+	var arro_point = instance_place(x,y,Arrow_OBJ);
+	
+	if(instance_exists(arro_point))
+	{
+		if(instance_exists(arro_point.Connected_to) && instance_exists(Self.Connected_from))
+		{
+			Self.Connected_from.Connected_to = arro_point;
+			
+			arro_point.Connected_from = Self.Connected_from;
+		}
+		else if(instance_exists(Self.Connected_to))
+		{
+			Self.Connected_to = arro_point;
+			
+			arro_point.Connected_from = Self.Connected_to;
+		}
+		
+		instance_destroy(Self);
+	}
+}

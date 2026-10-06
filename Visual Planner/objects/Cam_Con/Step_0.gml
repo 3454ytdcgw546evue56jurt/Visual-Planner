@@ -2,11 +2,11 @@ motion_mouse_x = prev_mouse_x - mouse_x;
 motion_mouse_y = prev_mouse_y - mouse_y;
 
 aspect_ratio = Screen_W/Screen_H;
-//Screen_X = camera_get_view_x(view_camera[0]);
-//Screen_Y = camera_get_view_y(view_camera[0]);
+Screen_X = camera_get_view_x(view_camera[0]);
+Screen_Y = camera_get_view_y(view_camera[0]);
 
-//Screen_W = camera_get_view_width(view_camera[0]);
-//Screen_H = camera_get_view_height(view_camera[0]);
+Screen_W = camera_get_view_width(view_camera[0]);
+Screen_H = camera_get_view_height(view_camera[0]);
 
 if(mouse_check_button(mb_middle))
 {
@@ -45,6 +45,5 @@ if(instance_exists(global.Mouse_Claimed) && keyboard_check(vk_delete))
 	instance_destroy(global.Mouse_Claimed);
 }
 
-//camera_set_view_size(view_camera[0],Screen_W,Screen_H);
-		
+camera_set_view_size(view_camera[0],Screen_W,Screen_H);
 //camera_set_view_pos(view_camera[0],Screen_X,Screen_Y);
